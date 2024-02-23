@@ -1,0 +1,74 @@
+html{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 2.5vh;
+    padding-bottom: 100px;
+    background-color: rgb(20, 20, 20);
+}
+
+h2{
+  transform: scaleY(1.5);
+  margin: auto;
+  margin-bottom: 3%;
+  font-size: 30px;
+  letter-spacing: 5px;
+  visibility: visible;
+  color: white;
+}
+
+#classifica{
+  width: 80%;
+  border-spacing: 5px 0;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: lightgrey;
+  overflow-x: scroll;
+
+}
+
+::-webkit-scrollbar {
+  color: white;
+}
+
+/*--------    header   ----------*/
+#home a{
+  text-decoration: none;
+  color:white;
+}
+#home{
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(156, 81, 182);
+  position: fixed;
+  top:-5px;
+}
+#home:hover{
+  background-color: rgb(140, 75, 170);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+#back{
+  color: white;
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(86, 53, 218);
+  position: fixed;
+  top:-5px;
+  left: 130px;
+}
+#back:hover{
+  background-color: rgb(68,39,188);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
