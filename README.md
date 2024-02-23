@@ -1,6 +1,5 @@
 # dataBasing_Project
-Group Project to make our first contact with the world of databases
-- and not to drown in the absurd ocean of request pulled out by this university
+Group Project to make our first contact with the world of databases( and not to drown in the absurd ocean of request pulled out by this university)
 
 ---------------- HOW TO RUN
 
