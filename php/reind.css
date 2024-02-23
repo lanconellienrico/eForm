@@ -1,0 +1,61 @@
+html{
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.choice{
+  padding-top: 10px;
+  margin: auto;
+  border-radius: 5%;
+  height: 35px;
+  font-size: 20px;
+}
+
+.choice:hover{
+  box-shadow: 1px 1px 6px grey;
+  cursor: pointer;
+}
+
+#user{
+  background-color: rgb(156, 81, 182);
+  width: 100px;
+}
+
+#user:hover{
+  background-color: rgb(140, 75, 170);
+}
+
+#company{
+  width: 150px;
+  background-color: green;
+}
+
+#company:hover{
+  background-color: darkgreen;
+}
+
+/*--------    header   ----------*/
+#home a{
+  text-decoration: none;
+  color:white;
+}
+#home{
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(156, 81, 182);
+  position: fixed;
+  top:-5px;
+}
+#home:hover{
+  background-color: rgb(140, 75, 170);
+  box-shadow: 1px 1px 6px grey;
+  cursor: pointer;
+}

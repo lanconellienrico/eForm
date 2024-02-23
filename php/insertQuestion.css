@@ -1,0 +1,133 @@
+html{
+    visibility: hidden;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 7.5vh;
+    padding-bottom: 100px;
+    background-color: rgb(20, 20, 20);
+}
+
+h2{
+  visibility: visible;
+  color: white;
+  margin-bottom: 5%;
+}
+
+form{
+  visibility: visible;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: white;
+  text-align: left;
+}
+#userLog{
+  visibility: visible;
+  color: red;
+  position: fixed;
+  margin-top: 0px;
+}
+#field{
+  padding: 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-bottom: 2.5%;
+  width: 80%;
+  margin-left: 8%;
+  height: 150px;
+  border-radius: 5px;
+  transition: box-shadow .2s;
+}
+
+#field:focus{
+  box-shadow: 1px 1px 3px lightgray, -1px -1px 3px lightgray, -1px 1px 3px lightgray, 1px -1px 3px lightgray;
+}
+
+#submit{
+  margin-left: 45%;
+  margin-top: 5%;
+  border: 0px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  background-color: rgb(200, 0,0);
+  transition: box-shadow .2s;
+}
+
+#submit:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px 5px orange, -2px 2px 5px orange, 2px -2px 5px orange, -2px -2px 5px orange;
+}
+
+.add{
+  margin-left: 15%;
+}
+
+#maxChar{
+  width: 10%;
+  text-align: right;
+}
+
+#points{
+  width: 10%;
+  text-align: right;
+}
+
+#Sondaggio{
+  width: 10%;
+  text-align:right;
+}
+
+#opzione{
+  display: none;
+  margin-left: 15%;
+  color: white;
+}
+.options{
+  margin-top: 5%;
+  width: 60%;
+}
+
+::-webkit-scrollbar {
+  size: 5px;
+}
+
+/*--------    header   ----------*/
+#home a{
+  text-decoration: none;
+  color:white;
+}
+#home{
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(156, 81, 182);
+  position: fixed;
+  top:-5px;
+}
+#home:hover{
+  background-color: rgb(140, 75, 170);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+#back{
+  color: white;
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(86, 53, 218);
+  position: fixed;
+  top:-5px;
+  left: 130px;
+}
+#back:hover{
+  background-color: rgb(68,39,188);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>sign up</title>
+  <link href="signUpAz.css" rel="stylesheet" type="text/css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>
+    <p id ="home"><a href="./home.html">&#x2190 HOME</a></p>
+  </header>
+  <div id="main">
+    <h1>Company Registration</h1>
+    <br>
+    <form action="./registerAz.php" method="post">
+      <div>
+        <h2 class="tit">Email</h2>
+        <input class="box" type="text" name="Email" id="email">
+      </div>
+      <div>
+        <h2 class="tit">Codice Fiscale</h2>
+        <input class="box" type="text" name="Codice_Fiscale" id="cf" required="required">
+      </div>
+      <div>
+        <h2 class="tit">Nome</h2>
+        <input class="box" type="text" name="Nome" id="nome">
+      </div>
+      <div>
+        <h2 class="tit">Sede</h2>
+        <input class="box" type="text" name="Sede" id="sede">
+      </div>
+      <br>
+      <div>
+        <input id="submit" type="submit" value="Sign UP">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

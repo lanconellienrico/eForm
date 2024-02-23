@@ -1,0 +1,75 @@
+html{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 7.5vh;
+    background-color: rgb(20, 20, 20);
+}
+
+h2{
+  visibility: visible;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 2.5%;
+}
+
+#user{
+  color: red;
+  position: fixed;
+  margin-top: 0px;
+}
+
+.response{
+  color:white;
+}
+
+.second{
+  margin-top: 5%;
+  color:red;
+}
+#testoRisposta{
+  width: 80%; 
+}
+
+::-webkit-scrollbar {
+  color: white;
+  size: 5px;
+}
+
+/*--------    header   ----------*/
+#home a{
+  text-decoration: none;
+  color:white;
+}
+#home{
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(156, 81, 182);
+  position: fixed;
+  top:-5px;
+}
+#home:hover{
+  background-color: rgb(140, 75, 170);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+#back{
+  color: white;
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(86, 53, 218);
+  position: fixed;
+  top:-5px;
+  left: 130px;
+}
+#back:hover{
+  background-color: rgb(68,39,188);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}

@@ -1,0 +1,252 @@
+html{
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 10vh;
+  background-color: rgb(20, 20, 20);
+  padding-bottom: 100px;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+#container{
+  display: grid;
+  gap: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.panel{
+  border-radius: 5px;
+}
+
+#info{
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding: 30px;
+  padding-top: 15px;
+  text-align: left;
+  background-color: rgb(75, 35, 65);
+}
+
+#interesse{
+  grid-row-start: 2;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  padding-top: 1px;
+  background-color: rgb(159, 43, 104);
+}
+
+#risposta{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  background-color: rgb(218, 112, 214);
+}
+
+#storico{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  background-color: rgb(182, 30, 177);
+}
+
+#inviti{
+  color: white;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(200, 200, 210);
+}
+
+#premi{
+  color: white;
+  padding: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: rgb(198, 121, 236);
+}
+
+#insert{
+  color: white;
+  padding: 10px;
+  background-color: rgb(255, 139, 116);
+}
+
+#crea{
+  color: white;
+  padding: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: rgb(238, 81, 50);
+}
+
+#invito{
+  color: white;
+  padding: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: rgb(243, 58, 58);
+}
+
+#view{
+  color: white;
+  padding: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: rgb(255, 159, 102);
+}
+
+#stats{
+  color: white;
+  padding: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: rgb(200, 0, 0);
+}
+
+#stats_a{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.panel:hover{
+  box-shadow: inset -2px -2px 4px rgba(0,0,0,0.5);
+}
+
+#info:hover{
+  background-color: rgb(70, 30, 60);
+}
+
+#interesse:hover{
+    background-color: rgb(149, 37, 94);
+}
+
+#risposta:hover{
+  background-color: rgb(196, 86, 193);
+}
+
+#storico:hover{
+  background-color: rgb(154, 20, 149);
+}
+
+#inviti:hover{
+  background-color: rgb(180, 180, 210);
+}
+
+#premi:hover{
+  background-color: rgb(159, 82, 192);
+}
+
+#insert:hover{
+  background-color: rgb(213, 119, 100);
+}
+#crea:hover{
+  background-color: rgb(209, 70, 42);
+}
+#invito:hover{
+  background-color: rgb(220, 48, 48);
+}
+#view:hover{
+  background-color: rgb(223, 125, 69);
+}
+#stats:hover{
+  background-color: rgb(150,0,0);
+}
+
+
+#info h2{
+  color: white;
+  position: relative;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#inviti h2{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#insert h2{
+  line-height: 80%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#view h2{
+  line-height: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#stats h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info{
+  color: white;
+}
+
+#inform{
+  column-count: 2;
+}
+
+#inviti_a:hover{
+  cursor: pointer;
+}
+
+#premio_a{
+  color: black;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+#premio{
+  padding: 5px;
+  background-color: rgb(247, 190,0);
+}
+
+#chart_a{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+#chart{
+  padding: 5px;
+  color: white;
+  background-color: rgb(127, 0, 255);
+}
+#premio:hover{
+  background-color: rgb(240, 185,0);
+}
+
+#chart:hover{
+  background-color: rgb(115, 0, 230);
+}
+
+a{
+  text-decoration: none;
+}
+/*--------    header   ----------*/
+#home a{
+  text-decoration: none;
+  color:white;
+}
+#home{
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(156, 81, 182);
+  position: fixed;
+  top:-5px;
+}
+#home:hover{
+  background-color: rgb(140, 75, 170);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}

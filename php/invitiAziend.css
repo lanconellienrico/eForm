@@ -1,0 +1,94 @@
+html{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 7.5vh;
+    background-color: rgb(20, 20, 20);
+}
+h2{
+  visibility: visible;
+  color: white;
+  margin-bottom: 2%;
+}
+form{
+  visibility: visible;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: white;
+  text-align: center;
+}
+#userLog{
+  visibility: visible;
+  color: red;
+  position: fixed;
+  margin-top: 0px;
+}
+
+#submit{
+  margin-top: 5%;
+  border: 0px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  background-color: rgb(200, 0,0);
+  transition: box-shadow .2s;
+}
+
+#submit:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px 5px orange, -2px 2px 5px orange, 2px -2px 5px orange, -2px -2px 5px orange;
+}
+
+
+#nUtenti{
+  color: black;
+  padding: 10px;
+  margin: auto;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+#nUtenti:focus{
+  border: 1px solid black;
+}
+::-webkit-scrollbar {
+  size: 5px;
+  color: darkgrey;
+}
+/*--------    header   ----------*/
+#home a{
+  text-decoration: none;
+  color:white;
+}
+#home{
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(156, 81, 182);
+  position: fixed;
+  top:-5px;
+}
+#home:hover{
+  background-color: rgb(140, 75, 170);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+#back{
+  color: white;
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(86, 53, 218);
+  position: fixed;
+  top:-5px;
+  left: 130px;
+}
+#back:hover{
+  background-color: rgb(68,39,188);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}

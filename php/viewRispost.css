@@ -1,0 +1,102 @@
+html{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 7.5vh;
+    background-color: rgb(20, 20, 20);
+}
+
+h2{
+  visibility: visible;
+  color: white;
+  margin-top: 2.5%;
+}
+
+form{
+  visibility: visible;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: white;
+  text-align: left;
+}
+#user{
+  color: red;
+  position: fixed;
+  margin-top: 0px;
+}
+#author{
+  font-style: italic;
+  color:white;
+}
+#risposte{
+  width: 60%;
+  border-spacing: 5px 0;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: lightgrey;
+  overflow-x: scroll;
+  border-collapse: collapse;
+}
+#risposte th{
+  border-bottom: 2px solid black;
+}
+#risposte *{
+  padding: 5px;
+}
+.ans{
+  border-top: 1px solid grey;
+}
+.firstOne{
+  border-top: 2px solid grey;
+}
+
+
+
+
+::-webkit-scrollbar {
+  color: white;
+  size: 5px;
+}
+
+/*--------    header   ----------*/
+#home a{
+  text-decoration: none;
+  color:white;
+}
+#home{
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(156, 81, 182);
+  position: fixed;
+  top:-5px;
+}
+#home:hover{
+  background-color: rgb(140, 75, 170);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+#back{
+  color: white;
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(86, 53, 218);
+  position: fixed;
+  top:-5px;
+  left: 130px;
+}
+#back:hover{
+  background-color: rgb(68,39,188);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+html{
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 25vh;
+}
+
+#login_title a{
+  text-decoration: none;
+  color: white;
+}
+
+#new a{
+  text-decoration: none;
+  color: blue;
+}
+
+#new a:hover{
+  text-shadow: 1px 1px 3px gray;
+}
+
+#new:visited{
+  color: blue;
+}
+
+#login_title{
+  background-color: rgb(156, 81, 182);
+  width: 120px;;
+  height: 25px;
+  margin: auto;
+  font-size: 20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5%;
+}
+
+#login_title:hover{
+  background-color: rgb(140, 75, 170);
+  box-shadow: 1px 1px 6px grey;
+  cursor: pointer;
+}

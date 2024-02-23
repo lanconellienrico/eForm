@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>sign up</title>
+  <link href="signUp.css" rel="stylesheet" type="text/css"/>
+  <script src="signUp.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>
+    <p id ="home"><a href="./home.html">&#x2190 HOME</a></p>
+  </header>
+  <div id="main">
+    <h1>User Registration</h1>
+    <br>
+    <form action="./register.php" method="post">
+      <div>
+        <h2 class="tit">Email</h2>
+        <input class="box" type="text" name="Email" id="email" required="required">
+      </div>
+      <div>
+        <h2 class="tit">Nome</h2>
+        <input class="box" type="text" name="Nome" id="nome" required="required">
+      </div>
+      <div>
+        <h2 class="tit">Cognome</h2>
+        <input class="box" type="text" name="Cognome" id="cognome" required="required">
+      </div>
+      <div>
+        <h2 class="tit">Luogo di Nascita</h2>
+        <input class="box" type="text" name="Luogo_Nascita" id="luogo_nascita" required="required">
+      </div>
+      <div>
+        <label for="Anno_Nascita"><h2 class="tit">Anno di Nascita</h2></label>
+        <input type="number" name="Anno_Nascita" min="1900" max="2023" step="1" value="2000" required="required">
+      </div>
+      <div>
+        <h2 class="tit">Sign up as:</h2><br>
+        <label for="user">User</label>
+        <input type="radio" id="user" name="Usertype" value="User" checked onclick="hide()">
+        <label for="premium">Premium</label>
+        <input type="radio" id="premium" name="Usertype" value="Premium" onclick="show()">
+        <label for="admin">Administrator</label>
+        <input type="radio" id="admin" name="Usertype" value="Admin" onclick="hide()">
+      </div>
+      <div id="premiumOnly">
+        <div>
+          <h2 class="tit">Inizio Abbonamento: </h2>
+          <input class="date" type="date" name="Data_Inizio_Abb" id="inizio" value="2023-06-30">
+        </div>
+        <br>
+        <div>
+          <h2 class="tit">Fine Abbonamento: </h2>
+          <input class="date" type="date" name="Data_Fine_Abb" id="fine" value="2024-06-30">
+        </div>
+        <br>
+        <div>
+          <label for="Costo"><h2 class="tit">Costo: </h2></label>
+          <input type="number" name="Costo" min="50" max="500" step="50" value="50">
+        </div>
+      </div>
+      <div>
+        <input id="submit" type="submit" value="Sign UP">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,166 @@
+html{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 2.5vh;
+    padding-bottom: 100px;
+    background-color: rgb(20, 20, 20);
+}
+
+h2{
+  transform: scaleY(1.5);
+  margin: auto;
+  margin-bottom: 3%;
+  font-size: 30px;
+  letter-spacing: 5px;
+  visibility: visible;
+  color: white;
+}
+
+#premi{
+  visibility: visible;
+  padding: 10px;
+}
+
+.premio{
+  vertical-align: text-top;
+  z-index: 0;
+  overflow: hidden;
+  float: left;
+  margin: 10px;
+  width: 17%;
+  height: 17vw;
+  border-radius: 5px;
+  border: 2px solid grey;
+  text-shadow: 2px 2px 4px black;
+  transition: .2s transform;
+  transition: .2s box-shadow;
+}
+.premio:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 5px white, -2px -2px 5px white, -2px 2px 5px white, 2px -2px 5px white;
+}
+
+.image{
+  z-index: -1;
+  position:relative;
+  max-height: 100%;
+}
+
+.premioTitle{
+  position: relative;
+  bottom: 11vw;
+  z-index: 0;
+  color:white;
+  font-weight: bold;
+}
+
+.punti{
+  font-weight: bold;
+  position: relative;
+  bottom: 7.5vw;
+  color: white;
+}
+
+.description{
+  padding-left: 1vw;
+  font-style: italic;
+  display:none;
+  font-size: 1.5vw;
+  margin: 0px;
+  position: relative;
+  bottom: 11vw;
+  height: 10vw;
+  overflow-y: scroll;
+  color: white;
+  text-shadow: 1px 1px 3px red, -1px -1px 3px red, -1px 1px 3px red, 1px -1px 3px red ;
+
+}
+.descBox{
+  position: relative;
+  bottom: 15vw;
+  height: 7.5vw;
+  overflow-y: scroll;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+::-webkit-scrollbar {
+  color: white;
+}
+
+#optionView{
+  text-align: right;
+  margin-right: 5%;
+  visibility: visible;
+  color:white;
+}
+.view:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#premiNoiosi{
+  border-spacing: 5px 0;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  display: none;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: lightgrey;
+  overflow-x: scroll;
+
+}
+.imgTd{
+  width: 3vw;
+  height: 3vw;
+  max-width: 5vw;
+  max-height: 5vw;
+}
+.imgBrutte{
+  width: 3vw;
+  height: 3vw;
+  max-width: 5vw;
+  max-height: 5vw;
+  border-radius: 5%;
+}
+
+/*--------    header   ----------*/
+#home a{
+  text-decoration: none;
+  color:white;
+}
+#home{
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(156, 81, 182);
+  position: fixed;
+  top:-5px;
+}
+#home:hover{
+  background-color: rgb(140, 75, 170);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+#back{
+  color: white;
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(86, 53, 218);
+  position: fixed;
+  top:-5px;
+  left: 130px;
+}
+#back:hover{
+  background-color: rgb(68,39,188);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}

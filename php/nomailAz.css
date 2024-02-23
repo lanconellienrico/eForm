@@ -1,0 +1,39 @@
+html{
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+#retry{
+  margin-top: 10px;
+  border-radius: 3px;
+  padding:10px;
+  text-decoration: none;
+  color:white;
+  background-color: green;
+}
+
+#retry:hover{
+  background-color: darkgreen;
+  box-shadow: 2px 2px 5px grey;
+}
+
+/*--------    header   ----------*/
+#home a{
+  text-decoration: none;
+  color:white;
+}
+#home{
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: green;
+  position: fixed;
+  top:-5px;
+}
+#home:hover{
+  background-color: darkgreen;
+  box-shadow: 1px 1px 6px grey;
+  cursor: pointer;
+}

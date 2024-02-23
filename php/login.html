@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>login</title>
+  <link href="login.css" rel="stylesheet" type="text/css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <header>
+    <p id ="home"><a href="./home.html">&#x2190 HOME</a></p>
+  </header>
+  <div id="main">
+    <h1>User Login</h1>
+    <br>
+    <form action="./login.php" method="post">
+      <div>
+        <select title="selectType" id="selectType" name='selectType' required='required'>
+          <option value="premium">Premium </option>
+          <option value="admin">Admin </option>
+          <option value="user">User </option>
+        </select>
+        <h2 class="tit">Email</h2>
+        <input class="box" type="text" name="Email" id="email">
+      </div>
+      <div>
+        <input id="submit" type="submit" value="GO">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

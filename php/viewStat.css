@@ -1,0 +1,86 @@
+html{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 7.5vh;
+    background-color: rgb(20, 20, 20);
+    overflow-y: scroll;
+}
+
+h2{
+  visibility: visible;
+  color: white;
+  margin-top: 2.5%;
+}
+
+#user{
+  color: red;
+  position: fixed;
+  margin-top: 0px;
+}
+#author{
+  font-style: italic;
+  color:white;
+}
+.questionTitle{
+  text-align: left;
+  margin-left: 15%;
+  color: white;
+  text-shadow: 1px 1px 3px red, -1px -1px 3px red, -1px 1px 3px red, 1px -1px 3px red;
+}
+.infoRisposte{
+  text-align: left;
+  border-radius: 5px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 60%;
+  padding: 2.5%;
+  background-color: lightgrey;
+  margin-bottom: 5%;
+}
+
+
+
+
+::-webkit-scrollbar {
+  color: white;
+  size: 5px;
+}
+
+/*--------    header   ----------*/
+#home a{
+  text-decoration: none;
+  color:white;
+}
+#home{
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(156, 81, 182);
+  position: fixed;
+  top:-5px;
+}
+#home:hover{
+  background-color: rgb(140, 75, 170);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+#back{
+  color: white;
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(86, 53, 218);
+  position: fixed;
+  top:-5px;
+  left: 130px;
+}
+#back:hover{
+  background-color: rgb(68,39,188);
+  box-shadow: inset -1px -1px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}

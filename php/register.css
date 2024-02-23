@@ -1,0 +1,38 @@
+html{
+  font-family: sans-serif;
+  visibility: hidden;
+}
+
+body h2{
+  visibility: visible;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+#dati{
+  visibility: visible;
+  text-align: left;
+  margin-left: 35%;
+}
+
+/*--------    header   ----------*/
+#home a{
+  text-decoration: none;
+  color:white;
+}
+#home{
+  text-align: center;
+  visibility: visible;
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: rgb(156, 81, 182);
+  position: fixed;
+  top:-5px;
+}
+#home:hover{
+  background-color: rgb(140, 75, 170);
+  box-shadow: 1px 1px 6px grey;
+  cursor: pointer;
+}

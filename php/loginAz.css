@@ -1,0 +1,64 @@
+html{
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.tit{
+  font-size: 20px;
+  margin-bottom: 2px;
+  font-weight: lighter;
+}
+
+#titEmail{
+  padding-right: 200px;
+}
+
+#titCF{
+  padding-right: 120px;
+}
+
+.box{
+  width: 250px;
+  height: 25px;
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+#submit{
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: green;
+  border-radius: 3px;
+  border: 1px solid green;
+}
+
+#submit:hover{
+  background-color: darkgreen;
+  box-shadow: 1px 1px 6px grey;
+  cursor: pointer;
+}
+
+/*--------    header   ----------*/
+#home a{
+  text-decoration: none;
+  color:white;
+}
+#home{
+  padding-top: 9px;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  background-color: green;
+  position: fixed;
+  top:-5px;
+}
+#home:hover{
+  background-color: darkgreen;
+  box-shadow: 1px 1px 6px grey;
+  cursor: pointer;
+}
