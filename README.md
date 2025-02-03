@@ -1,5 +1,4 @@
-# eForm - dataBase_Project
-Group Project to make our first contact with the world of databases( and not to drown in the absurd ocean of requests pulled out by this university)
+# eForm 
 
 ---------------- HOW TO RUN
 
